@@ -1,0 +1,128 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: rgb(247, 132, 0);
+  background: linear-gradient(
+    135deg,
+    rgba(247, 132, 0, 1) 0%,
+    rgba(249, 255, 95, 1) 35%,
+    rgba(247, 132, 0, 1) 100%
+  );
+}
+
+h1 {
+  margin: 20px;
+}
+
+.border-div {
+  border: 3px solid black;
+  margin: 30px auto;
+}
+
+.border-div {
+  border: 1px solid black;
+  margin: 30px auto;
+}
+
+/* colors */
+
+.color-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+
+.color {
+  text-align: center;
+  width: 30%;
+  margin: 10px 0;
+  min-width: 350px;
+}
+
+.red-div {
+  color: white;
+  background-color: #e32517;
+}
+
+.green-div {
+  color: black;
+  background-color: #33ff15;
+}
+
+.orange-div {
+  color: black;
+  background-color: #fb8319;
+}
+
+.blue-div {
+  color: white;
+  background-color: #0086ff;
+}
+
+/* fonts */
+
+.fonts-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fonts {
+  width: 30%;
+  min-width: 375px;
+}
+
+.fonts h3 {
+  text-decoration: underline;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.lora {
+  font-family: "Lora", serif;
+}
+
+.normal {
+  font-weight: 300;
+}
+
+.normal-light {
+  font-weight: 200;
+}
+
+.normal-lightest {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* Last Div */
+
+.last-div h1 {
+  margin-bottom: 10px;
+}
+
+.last-div h2,
+.last-div p {
+  margin: 20px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+.last-div li {
+  font-family: "Lora";
+}
